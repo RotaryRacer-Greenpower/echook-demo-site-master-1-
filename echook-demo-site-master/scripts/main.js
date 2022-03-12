@@ -3,7 +3,7 @@ Vue.use(VueResource); //Required for GET requests to dweet.io
 let app = new Vue({
   el: "#vue",
   data: {
-    thingName: "echook", //Dweet Thing name
+    thingName: "RotaryRacer9", //Dweet Thing name
     buttonText: "Go!",
     status: "Idle",
     dweet: { // This holds the latest data from dweet and is accessible in HTML with {{dweet.dataName}}
